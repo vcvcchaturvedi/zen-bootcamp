@@ -1,0 +1,15 @@
+Q1: copying by value of composite data types in javascript:
+https://vcvcchaturvedi.medium.com/copying-a-composite-data-type-in-javascript-2c3efa1c5dc0
+
+Q2: HTTP/1.1 v/s HTTP2:
+https://vcvcchaturvedi.medium.com/http-1-1-v-s-http-2-protocol-c01b38615dfe
+
+Q3: Why primitives are copied by value and non-primitives by reference?
+https://vcvcchaturvedi.medium.com/why-primitive-data-types-are-copied-by-value-and-non-primitive-data-types-by-reference-in-2735acdf3e96
+
+Q4: Objects and its internal representation in Javascript:
+https://vcvcchaturvedi.medium.com/objects-and-their-internal-representation-in-javascript-a4f615f72a9e
+
+Q6: What is the difference between window, screen, and document in Javascript?
+https://vcvcchaturvedi.medium.com/what-is-the-difference-between-window-screen-and-document-in-javascript-683c8f25f5bc
+ 
