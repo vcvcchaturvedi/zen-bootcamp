@@ -1,0 +1,105 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+}
+body{
+    text-align: center;
+}
+.submit{
+text-align: center;
+
+}
+table
+{
+    display: block;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+
+.td2{
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+i{
+    vertical-align: center;
+    padding: 10px;
+    text-align: center;
+}
+td{
+    height: 40px;
+}
+.inner{
+    height: 97%;
+    width: fit-content;
+}
+.input{
+    width: fit-content;
+    height: 100%;
+    border: none;
+    float: right;
+}
+.select{
+    width: fit-content;
+    height: 100%;
+    border: none;
+    float: right;
+}
+@media screen and (max-width: 768px) {
+    .container{
+        background: lightgrey;
+        padding: 3px;
+        max-width: fit-content;
+        justify-self: center;
+        display: inline-block;
+        width: 100%;
+    }
+    table{
+        row-gap: 2px;
+    }
+    .col1 {
+        column-count: 2;
+    }
+    .col2{
+        column-count: 2;
+    }
+    tr{
+        display: inline-grid;
+
+    }
+    .td1 .td2{
+        text-align: center;
+    }
+  }
+  @media screen and (min-width:769px){
+    .container{
+        background: lightgrey;
+        padding: 10px;
+        max-width: 1320px;
+        justify-self: center;
+        display: inline-block;
+        width: 750px;
+    }
+    .col1 {
+        width: 50%;
+    }
+    .col2{
+        width: 50%;
+    }
+    table{
+        row-gap: 15px;
+    }
+    .td1 {
+        text-align: left;
+        float: left;
+        width: 50%;
+    }
+    .td2{
+        text-align: left;
+        float: right;
+        width: fit-content;
+    }
+    .inner{
+        width: 285px;
+    }
+  }
