@@ -1,0 +1,17 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    .card-img-top {
+        flex-grow: 1;
+        height: 250px;
+        object-fit: fill;
+    }
+    .cardGradient{
+        background-image: linear-gradient(to right, rgb(235, 236, 152),gray);
+    }
+    .card{
+        border: none;
+    }
+    .bg-black{
+        background-color: black;
+    }
