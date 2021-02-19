@@ -1,0 +1,92 @@
+.outer{
+                background-image: linear-gradient(to bottom right,yellow,green);
+                padding: 10px;
+                margin: 10px;
+            }
+            .inner2{
+                background-color: white;
+                padding-top: 24px;
+            }
+            .innerTable{
+                font-size: 24pt;
+                width: 100%;
+                color: blue;
+                font-weight: bold;
+            }
+            .trHeader{
+                color: maroon;
+            }
+            .inner{
+                display: flex;
+            }
+            .left{
+                width: 40%;
+                display: inline-block;
+            }
+            .right{
+                width: 60%;
+                display: inline-block;
+            }
+            .imgMain{
+                width: 70vmin;
+                height: 70vmin;
+            }
+            .center{
+                text-align: center;
+            }
+            .top{
+                color: darkblue;
+                font-size: 35pt;
+            }
+            .collapsed{
+                display: none;
+            }
+            .playButton{
+                border-radius: 80%;
+                background-color: brown;
+                color: chartreuse;
+                height: 140px;
+                width: 200px;
+                font-size: 20pt;
+            }
+            .nameField{
+                width: 200px;
+                height: 50px;
+                font-size: 15pt;
+                font-weight: bold;
+            }
+            .guessPalette
+            {
+                padding-top: 30px;
+            }
+            .row
+            {
+                padding: 5px;
+            }
+            .buttonGuess
+            {
+                background-color: chocolate;
+                color: blueviolet;
+                font-size: 40pt;
+                border: 1px  solid red;
+                border-radius: 50px;
+                margin-left: 7px;
+            }
+            .buttonGuess:focus{
+                outline: 0 !important;
+            }
+            .buttonGuessError{
+                background-color: red;
+            }
+            .buttonGuessCorrect{
+                background-color: green;
+            }
+            .word{
+                font-size: 50pt;
+                color: green;
+                padding-left: 4px;
+            }
+            .floatRight{
+                float: right;
+                padding-right: 20px;
+            }
