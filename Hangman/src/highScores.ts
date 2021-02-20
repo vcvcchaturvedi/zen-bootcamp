@@ -26,6 +26,8 @@ div3.appendChild(div3button);
 outerDiv.append(div1,div2,div3);
 document.body.appendChild(outerDiv);
 };
+if(window.location.href.endsWith("highScores.html"))
+{
 makeDOM();
 let gohome: HTMLButtonElement=<HTMLButtonElement>document.getElementById('gohome');
 gohome.onclick=()=>{window.location.href='index.html'};
@@ -71,5 +73,5 @@ tbody.appendChild(tr);
 });
 };
 highScoresData();
-
+}
 

@@ -193,6 +193,8 @@ div3.append(div3div1,div3div2);
 divOuter.append(div1,div2,div3);
 document.body.appendChild(divOuter);
 };
+if(window.location.href.endsWith("public\/") || window.location.href.endsWith("index.html"))
+{
 makeDOM2();
 let hsButton:HTMLButtonElement=<HTMLButtonElement>document.getElementById('highScores');
 hsButton.onclick=()=>{window.location.href="highScores.html"};
@@ -456,4 +458,4 @@ else
 
 }
 
-
+}
